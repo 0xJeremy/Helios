@@ -1,4 +1,4 @@
-19460006562885534
+19466474426686534
 BNO055_STEMMA_QT
 BNO055
 
@@ -85337,6 +85337,20 @@ helios_kicad_lib
 12
 12
 helios_kicad_lib
+FUS_VISHAY_MFU0603
+
+
+0
+2
+2
+helios_kicad_lib
+IND_YUDEN_NS10165_YDN
+
+
+0
+2
+2
+helios_kicad_lib
 JST_SH4
 
 
@@ -85350,6 +85364,20 @@ MAX17504ATP&plus_T
 0
 21
 21
+helios_kicad_lib
+Pin_Header_Straight_2x20
+Through hole pin header
+pin header
+0
+40
+40
+helios_kicad_lib
+SMF
+
+
+0
+2
+2
 helios_kicad_lib
 STM32G474CET6
 
