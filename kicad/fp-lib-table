@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name BNO055_STEMMA_QT)(type KiCad)(uri ${KIPRJMOD}/BNO055_STEMMA_QT.pretty)(options "")(descr ""))
+  (lib (name helios_kicad_lib)(type KiCad)(uri ${KIPRJMOD}/helios_kicad_lib)(options "")(descr ""))
+)

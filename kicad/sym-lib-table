@@ -3,4 +3,7 @@
   (lib (name xt30)(type Legacy)(uri ${KIPRJMOD}/helios_kicad_lib/xt30.lib)(options "")(descr ""))
   (lib (name STM32G474CEU6)(type Legacy)(uri ${KIPRJMOD}/helios_kicad_lib/STM32G474CEU6.lib)(options "")(descr ""))
   (lib (name MAX17504ATP&plus_T)(type Legacy)(uri ${KIPRJMOD}/helios_kicad_lib/MAX17504ATP&plus_T.lib)(options "")(descr ""))
+  (lib (name STM32G474CET6)(type Legacy)(uri ${KIPRJMOD}/helios_kicad_lib/STM32G474CET6.lib)(options "")(descr ""))
+  (lib (name BNO055_STEMMA_QT)(type Legacy)(uri ${KIPRJMOD}/BNO055_STEMMA_QT.lib)(options "")(descr ""))
+  (lib (name header-3x04)(type Legacy)(uri ${KIPRJMOD}/helios_kicad_lib/header-3x04.lib)(options "")(descr ""))
 )
