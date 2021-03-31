@@ -1,4 +1,4 @@
-19466474426686534
+19468091638103534
 BNO055_STEMMA_QT
 BNO055
 
@@ -85336,6 +85336,13 @@ helios_kicad_lib
 0
 12
 12
+helios_kicad_lib
+Eagle_1X03
+<b>PIN HEADER</b>
+
+0
+3
+3
 helios_kicad_lib
 FUS_VISHAY_MFU0603
 
