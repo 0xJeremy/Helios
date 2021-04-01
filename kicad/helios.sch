@@ -831,8 +831,6 @@ F 3 "" H 4525 1200 50  0001 C CNN
 	1    4525 1200
 	1    0    0    -1  
 $EndComp
-Text Notes 3875 800  0    50   ~ 0
-Q: These are tied differently... why?
 $Comp
 L power:+3V3 #PWR0138
 U 1 1 60763F96
@@ -1075,8 +1073,6 @@ Text GLabel 4825 9675 0    50   Input ~ 0
 I2C2_SDA
 Text GLabel 4825 9775 0    50   Input ~ 0
 I2C2_SCL
-Text Notes 7825 -225 0    100  ~ 0
-MCU 1:\n- 2x CAN Bus\n- BNO055\n\nMCU 2:\n- 2x CAN Bus
 Text GLabel 3450 9750 2    50   Input ~ 0
 SPI0_SCK
 Text GLabel 3450 9650 2    50   Input ~ 0
@@ -1089,8 +1085,6 @@ Text GLabel 1350 2900 0    50   Input ~ 0
 TIM8_CH3N_1
 Text GLabel 1350 3000 0    50   Input ~ 0
 TIM20_CH1_1
-Text Notes -1475 2875 0    50   ~ 0
-Q: What does CH_N mean?\nAre these using the timers correctly?
 NoConn ~ 2825 6975
 NoConn ~ 3225 6775
 NoConn ~ 4150 1100
@@ -1795,17 +1789,6 @@ Wire Wire Line
 Connection ~ 11025 5175
 Wire Wire Line
 	11025 5175 11025 5075
-$Comp
-L power:+3V3 #PWR0180
-U 1 1 60DC8EF3
-P 12600 1200
-F 0 "#PWR0180" H 12600 1050 50  0001 C CNN
-F 1 "+3V3" H 12615 1373 50  0000 C CNN
-F 2 "" H 12600 1200 50  0001 C CNN
-F 3 "" H 12600 1200 50  0001 C CNN
-	1    12600 1200
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+3V3 #PWR0181
 U 1 1 60DC8EFA
@@ -2791,4 +2774,7 @@ NoConn ~ 4150 1500
 NoConn ~ 4150 1600
 NoConn ~ 12225 1500
 NoConn ~ 12225 1600
+Wire Wire Line
+	12600 1200 12600 1300
+Connection ~ 12600 1300
 $EndSCHEMATC

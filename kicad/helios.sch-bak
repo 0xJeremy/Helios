@@ -831,8 +831,6 @@ F 3 "" H 4525 1200 50  0001 C CNN
 	1    4525 1200
 	1    0    0    -1  
 $EndComp
-Text Notes 3875 800  0    50   ~ 0
-Q: These are tied differently... why?
 $Comp
 L power:+3V3 #PWR0138
 U 1 1 60763F96
@@ -1075,8 +1073,6 @@ Text GLabel 4825 9675 0    50   Input ~ 0
 I2C2_SDA
 Text GLabel 4825 9775 0    50   Input ~ 0
 I2C2_SCL
-Text Notes 7825 -225 0    100  ~ 0
-MCU 1:\n- 2x CAN Bus\n- BNO055\n\nMCU 2:\n- 2x CAN Bus
 Text GLabel 3450 9750 2    50   Input ~ 0
 SPI0_SCK
 Text GLabel 3450 9650 2    50   Input ~ 0
@@ -1089,8 +1085,6 @@ Text GLabel 1350 2900 0    50   Input ~ 0
 TIM8_CH3N_1
 Text GLabel 1350 3000 0    50   Input ~ 0
 TIM20_CH1_1
-Text Notes -1475 2875 0    50   ~ 0
-Q: What does CH_N mean?\nAre these using the timers correctly?
 NoConn ~ 2825 6975
 NoConn ~ 3225 6775
 NoConn ~ 4150 1100
@@ -2677,7 +2671,7 @@ U 1 1 61432AF7
 P 875 10400
 F 0 "H1" V 829 10550 50  0000 L CNN
 F 1 "MountingHole_Pad" V 920 10550 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 875 10400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 875 10400 50  0001 C CNN
 F 3 "~" H 875 10400 50  0001 C CNN
 	1    875  10400
 	0    1    1    0   
@@ -2688,7 +2682,7 @@ U 1 1 614338CF
 P 875 10575
 F 0 "H2" V 829 10725 50  0000 L CNN
 F 1 "MountingHole_Pad" V 920 10725 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 875 10575 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 875 10575 50  0001 C CNN
 F 3 "~" H 875 10575 50  0001 C CNN
 	1    875  10575
 	0    1    1    0   
@@ -2699,7 +2693,7 @@ U 1 1 61433BC1
 P 875 10750
 F 0 "H3" V 829 10900 50  0000 L CNN
 F 1 "MountingHole_Pad" V 920 10900 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 875 10750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 875 10750 50  0001 C CNN
 F 3 "~" H 875 10750 50  0001 C CNN
 	1    875  10750
 	0    1    1    0   
@@ -2710,7 +2704,7 @@ U 1 1 61433D9B
 P 875 10925
 F 0 "H4" V 829 11075 50  0000 L CNN
 F 1 "MountingHole_Pad" V 920 11075 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965" H 875 10925 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 875 10925 50  0001 C CNN
 F 3 "~" H 875 10925 50  0001 C CNN
 	1    875  10925
 	0    1    1    0   
